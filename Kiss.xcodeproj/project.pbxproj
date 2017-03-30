@@ -7,21 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6916D9A795BC2932E6CF2CFA /* Pods_Kiss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9541F67B1AD45565B7F489 /* Pods_Kiss.framework */; };
+		E1037E471E8D6E24001A1439 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1037E461E8D6E24001A1439 /* LoginViewController.swift */; };
+		E1037E491E8D6E36001A1439 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1037E481E8D6E36001A1439 /* Login.storyboard */; };
+		E1037E4E1E8D6FB8001A1439 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1037E4D1E8D6FB8001A1439 /* Namespace.swift */; };
+		E1037E511E8D71E5001A1439 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1037E501E8D71E5001A1439 /* UIColor.swift */; };
+		E1037E531E8D7867001A1439 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1037E521E8D7867001A1439 /* UIStoryboard.swift */; };
+		E1037E551E8D795A001A1439 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1037E541E8D795A001A1439 /* User.swift */; };
+		E1037E571E8D7DB7001A1439 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1037E561E8D7DB7001A1439 /* UIViewController.swift */; };
 		E1A9A4B51E8D435A00D1C100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A4B41E8D435A00D1C100 /* AppDelegate.swift */; };
-		E1A9A4B71E8D435A00D1C100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A4B61E8D435A00D1C100 /* ViewController.swift */; };
 		E1A9A4BA1E8D435A00D1C100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A9A4B81E8D435A00D1C100 /* Main.storyboard */; };
 		E1A9A4BC1E8D435A00D1C100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A9A4BB1E8D435A00D1C100 /* Assets.xcassets */; };
 		E1A9A4BF1E8D435A00D1C100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A9A4BD1E8D435A00D1C100 /* LaunchScreen.storyboard */; };
+		E1A9A4C71E8D491200D1C100 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A4C61E8D491200D1C100 /* AppInfo.swift */; };
+		E1A9A4CD1E8D5C0400D1C100 /* PersonChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A4CC1E8D5C0400D1C100 /* PersonChatViewController.swift */; };
+		E1A9A4CF1E8D5C3000D1C100 /* GroupChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A4CE1E8D5C3000D1C100 /* GroupChatViewController.swift */; };
+		E1A9A4D21E8D5DBD00D1C100 /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A4D11E8D5DBD00D1C100 /* ConversationListViewController.swift */; };
+		E1A9A4D41E8D5E0F00D1C100 /* ContactsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A4D31E8D5E0F00D1C100 /* ContactsListViewController.swift */; };
+		E1A9A4D61E8D5E3F00D1C100 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A4D51E8D5E3F00D1C100 /* MeViewController.swift */; };
+		E1A9A4D81E8D5EBA00D1C100 /* Person.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A9A4D71E8D5EBA00D1C100 /* Person.storyboard */; };
+		E1A9A4DA1E8D5F0500D1C100 /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A9A4D91E8D5F0500D1C100 /* Contacts.storyboard */; };
+		E1A9A4DC1E8D5F2700D1C100 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A9A4DB1E8D5F2700D1C100 /* Me.storyboard */; };
+		E1A9A4DE1E8D611000D1C100 /* Conversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A9A4DD1E8D611000D1C100 /* Conversation.storyboard */; };
+		E1A9A4E01E8D660D00D1C100 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9A4DF1E8D660D00D1C100 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD9541F67B1AD45565B7F489 /* Pods_Kiss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kiss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1037E461E8D6E24001A1439 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E1037E481E8D6E36001A1439 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E1037E4D1E8D6FB8001A1439 /* Namespace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Namespace.swift; sourceTree = "<group>"; };
+		E1037E501E8D71E5001A1439 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		E1037E521E8D7867001A1439 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		E1037E541E8D795A001A1439 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E1037E561E8D7DB7001A1439 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		E1A9A4B11E8D435A00D1C100 /* Kiss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A9A4B41E8D435A00D1C100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1A9A4B61E8D435A00D1C100 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1A9A4B91E8D435A00D1C100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1A9A4BB1E8D435A00D1C100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A9A4BE1E8D435A00D1C100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A9A4C01E8D435A00D1C100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A9A4C61E8D491200D1C100 /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		E1A9A4C81E8D552500D1C100 /* Kiss-bridge-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kiss-bridge-header.h"; sourceTree = "<group>"; };
+		E1A9A4CC1E8D5C0400D1C100 /* PersonChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonChatViewController.swift; sourceTree = "<group>"; };
+		E1A9A4CE1E8D5C3000D1C100 /* GroupChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChatViewController.swift; sourceTree = "<group>"; };
+		E1A9A4D11E8D5DBD00D1C100 /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
+		E1A9A4D31E8D5E0F00D1C100 /* ContactsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsListViewController.swift; sourceTree = "<group>"; };
+		E1A9A4D51E8D5E3F00D1C100 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		E1A9A4D71E8D5EBA00D1C100 /* Person.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Person.storyboard; sourceTree = "<group>"; };
+		E1A9A4D91E8D5F0500D1C100 /* Contacts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Contacts.storyboard; sourceTree = "<group>"; };
+		E1A9A4DB1E8D5F2700D1C100 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		E1A9A4DD1E8D611000D1C100 /* Conversation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Conversation.storyboard; sourceTree = "<group>"; };
+		E1A9A4DF1E8D660D00D1C100 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F76301E7B7F3BA0C21855A0E /* Pods-Kiss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kiss/Pods-Kiss.debug.xcconfig"; sourceTree = "<group>"; };
+		FE1A91B7E207C7993488A0BD /* Pods-Kiss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiss.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kiss/Pods-Kiss.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +68,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6916D9A795BC2932E6CF2CFA /* Pods_Kiss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6399AF2D4BA863F2E945F1E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F76301E7B7F3BA0C21855A0E /* Pods-Kiss.debug.xcconfig */,
+				FE1A91B7E207C7993488A0BD /* Pods-Kiss.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DAEAB0A30C249BB6DF4CC44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9541F67B1AD45565B7F489 /* Pods_Kiss.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1037E4A1E8D6F45001A1439 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1037E4F1E8D71CA001A1439 /* Kiss */,
+				E1037E4B1E8D6F4F001A1439 /* Reactive */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E1037E4B1E8D6F4F001A1439 /* Reactive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Reactive;
+			sourceTree = "<group>";
+		};
+		E1037E4C1E8D6FA3001A1439 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E1037E4D1E8D6FB8001A1439 /* Namespace.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		E1037E4F1E8D71CA001A1439 /* Kiss */ = {
+			isa = PBXGroup;
+			children = (
+				E1037E501E8D71E5001A1439 /* UIColor.swift */,
+				E1037E521E8D7867001A1439 /* UIStoryboard.swift */,
+				E1037E561E8D7DB7001A1439 /* UIViewController.swift */,
+			);
+			name = Kiss;
+			sourceTree = "<group>";
+		};
 		E1A9A4A81E8D435900D1C100 = {
 			isa = PBXGroup;
 			children = (
 				E1A9A4B31E8D435A00D1C100 /* Kiss */,
 				E1A9A4B21E8D435A00D1C100 /* Products */,
+				6399AF2D4BA863F2E945F1E7 /* Pods */,
+				6DAEAB0A30C249BB6DF4CC44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +147,62 @@
 		E1A9A4B31E8D435A00D1C100 /* Kiss */ = {
 			isa = PBXGroup;
 			children = (
+				E1037E4C1E8D6FA3001A1439 /* Protocol */,
+				E1037E4A1E8D6F45001A1439 /* Extensions */,
+				E1A9A4CA1E8D5BC700D1C100 /* Model */,
+				E1A9A4CB1E8D5BCE00D1C100 /* View */,
+				E1A9A4C91E8D5BBA00D1C100 /* ViewController */,
+				E1A9A4D01E8D5D3F00D1C100 /* Storyboard&Xib */,
 				E1A9A4B41E8D435A00D1C100 /* AppDelegate.swift */,
-				E1A9A4B61E8D435A00D1C100 /* ViewController.swift */,
-				E1A9A4B81E8D435A00D1C100 /* Main.storyboard */,
+				E1A9A4C61E8D491200D1C100 /* AppInfo.swift */,
 				E1A9A4BB1E8D435A00D1C100 /* Assets.xcassets */,
 				E1A9A4BD1E8D435A00D1C100 /* LaunchScreen.storyboard */,
+				E1A9A4C81E8D552500D1C100 /* Kiss-bridge-header.h */,
 				E1A9A4C01E8D435A00D1C100 /* Info.plist */,
 			);
 			path = Kiss;
+			sourceTree = "<group>";
+		};
+		E1A9A4C91E8D5BBA00D1C100 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1A9A4CC1E8D5C0400D1C100 /* PersonChatViewController.swift */,
+				E1A9A4D31E8D5E0F00D1C100 /* ContactsListViewController.swift */,
+				E1A9A4D51E8D5E3F00D1C100 /* MeViewController.swift */,
+				E1A9A4CE1E8D5C3000D1C100 /* GroupChatViewController.swift */,
+				E1A9A4D11E8D5DBD00D1C100 /* ConversationListViewController.swift */,
+				E1A9A4DF1E8D660D00D1C100 /* MainViewController.swift */,
+				E1037E461E8D6E24001A1439 /* LoginViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E1A9A4CA1E8D5BC700D1C100 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1037E541E8D795A001A1439 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E1A9A4CB1E8D5BCE00D1C100 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E1A9A4D01E8D5D3F00D1C100 /* Storyboard&Xib */ = {
+			isa = PBXGroup;
+			children = (
+				E1A9A4B81E8D435A00D1C100 /* Main.storyboard */,
+				E1A9A4D71E8D5EBA00D1C100 /* Person.storyboard */,
+				E1A9A4D91E8D5F0500D1C100 /* Contacts.storyboard */,
+				E1A9A4DB1E8D5F2700D1C100 /* Me.storyboard */,
+				E1A9A4DD1E8D611000D1C100 /* Conversation.storyboard */,
+				E1037E481E8D6E36001A1439 /* Login.storyboard */,
+			);
+			name = "Storyboard&Xib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A9A4C31E8D435A00D1C100 /* Build configuration list for PBXNativeTarget "Kiss" */;
 			buildPhases = (
+				B4A2351DFC8E1F7F2F66415E /* [CP] Check Pods Manifest.lock */,
 				E1A9A4AD1E8D435A00D1C100 /* Sources */,
 				E1A9A4AE1E8D435A00D1C100 /* Frameworks */,
 				E1A9A4AF1E8D435A00D1C100 /* Resources */,
+				CBA263015E4D4F3C77667DDA /* [CP] Embed Pods Frameworks */,
+				E7846BE1EB3C1E01BEE0ADF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,21 +268,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1037E491E8D6E36001A1439 /* Login.storyboard in Resources */,
+				E1A9A4DE1E8D611000D1C100 /* Conversation.storyboard in Resources */,
 				E1A9A4BF1E8D435A00D1C100 /* LaunchScreen.storyboard in Resources */,
 				E1A9A4BC1E8D435A00D1C100 /* Assets.xcassets in Resources */,
+				E1A9A4DC1E8D5F2700D1C100 /* Me.storyboard in Resources */,
+				E1A9A4DA1E8D5F0500D1C100 /* Contacts.storyboard in Resources */,
 				E1A9A4BA1E8D435A00D1C100 /* Main.storyboard in Resources */,
+				E1A9A4D81E8D5EBA00D1C100 /* Person.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4A2351DFC8E1F7F2F66415E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA263015E4D4F3C77667DDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiss/Pods-Kiss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7846BE1EB3C1E01BEE0ADF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiss/Pods-Kiss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1A9A4AD1E8D435A00D1C100 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A9A4B71E8D435A00D1C100 /* ViewController.swift in Sources */,
+				E1037E571E8D7DB7001A1439 /* UIViewController.swift in Sources */,
+				E1037E551E8D795A001A1439 /* User.swift in Sources */,
+				E1037E531E8D7867001A1439 /* UIStoryboard.swift in Sources */,
+				E1037E471E8D6E24001A1439 /* LoginViewController.swift in Sources */,
+				E1A9A4D41E8D5E0F00D1C100 /* ContactsListViewController.swift in Sources */,
+				E1A9A4D61E8D5E3F00D1C100 /* MeViewController.swift in Sources */,
+				E1037E4E1E8D6FB8001A1439 /* Namespace.swift in Sources */,
+				E1A9A4CF1E8D5C3000D1C100 /* GroupChatViewController.swift in Sources */,
+				E1A9A4CD1E8D5C0400D1C100 /* PersonChatViewController.swift in Sources */,
+				E1A9A4D21E8D5DBD00D1C100 /* ConversationListViewController.swift in Sources */,
+				E1037E511E8D71E5001A1439 /* UIColor.swift in Sources */,
 				E1A9A4B51E8D435A00D1C100 /* AppDelegate.swift in Sources */,
+				E1A9A4C71E8D491200D1C100 /* AppInfo.swift in Sources */,
+				E1A9A4E01E8D660D00D1C100 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +466,7 @@
 		};
 		E1A9A4C41E8D435A00D1C100 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76301E7B7F3BA0C21855A0E /* Pods-Kiss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EAH5M74Q2V;
@@ -264,12 +474,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chicv.Kiss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kiss/Kiss-bridge-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E1A9A4C51E8D435A00D1C100 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1A91B7E207C7993488A0BD /* Pods-Kiss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EAH5M74Q2V;
@@ -277,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chicv.Kiss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kiss/Kiss-bridge-header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +513,7 @@
 				E1A9A4C51E8D435A00D1C100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
